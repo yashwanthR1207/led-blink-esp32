@@ -1,28 +1,4 @@
 /*
- * ============================================
- *  ESP32 LED Blink
- * ============================================
- *  Board   : ESP32 Dev Module
- *  LED Pin : D2 (GPIO 2) — Onboard LED
- *  Author  : Your Name
- *  Version : 1.0.0
- *  License : MIT
- * ============================================
- *
- *  WIRING (External LED — Optional):
- *  ----------------------------------
- *  ESP32 D2 (GPIO 2) → 220Ω Resistor → LED Anode (+)
- *  ESP32 GND         → LED Cathode (-)
- *
- *  UPLOAD STEPS:
- *  -------------
- *  1. Connect ESP32 via USB
- *  2. Tools > Board > ESP32 Dev Module
- *  3. Tools > Port > Select your COM port
- *  4. Click Upload (hold BOOT button if it fails)
- *  5. Open Serial Monitor at 115200 baud
- * ============================================
- */
 
 // ─── Pin Definition ───────────────────────────
 #define LED_PIN      2       // D2 → GPIO 2 (Onboard LED)
